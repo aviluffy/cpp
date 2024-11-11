@@ -1,0 +1,28 @@
+body{
+    font-family: cursive;
+    background-color: black;
+
+}
+h1{
+    color: blueviolet;
+}
+a{
+    color: orange;
+}
+a:hover{
+    color: lime;
+}
+ul>li{
+    font-weight: bold;
+}
+h1+p{
+   background-color: palevioletred;
+   padding: 15px;
+    border-radius: 5px;
+}
+ul li:hover{
+    color: peru;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
